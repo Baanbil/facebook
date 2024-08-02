@@ -1,0 +1,51 @@
+.active{
+  color: orange;
+  font-weight: bold;
+}
+#gall{
+  color: blue;
+  margin-left: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+.gallery img{
+  width: 100%;
+}
+.gallery{
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 5px 5px 10px blue;
+  margin: 10px;
+  max-width: 300px;
+  padding: 10px;
+}
+.gallery p{
+  color: blue;
+  font-weight: bold;
+}
+.gallery  video{
+  width: 100%;
+  border-radius: 10px;
+}
+.anchor{
+  text-decoration: none;
+  color: white;
+  animation-name: colorChange;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes colorChange{
+  20%{color: rgb(0, 255, 195);}
+  60%{color: orange}
+}
+.hom{
+  width: 25px;
+  background-color: black;
+  border-radius: 50px;
+  padding: 3px 3px;
+}
+.zack{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}

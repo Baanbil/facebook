@@ -1,0 +1,70 @@
+body{
+  font-family: tahoma;
+  background-color: #131720;
+}
+
+.grid-element{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 20px;
+}
+
+#container{
+  border: 2px solid yellowgreen;
+  width: 200px;
+  padding-bottom: 10px;
+  box-shadow: 5px 5px 10px blue;
+}
+
+p{
+  color: rgb(96, 96, 96);
+  margin-left: 5px;
+}
+
+.add{
+  background-color: rgb(61, 61, 232);
+  color: white;
+  font-weight: bold;
+  padding: 8px 10px;
+  border: none;
+  border-radius: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+h2{
+  margin-left: 5px;
+  color: white;
+}
+
+.is-subscribed{
+  background-color: lightgray;
+  color: black;
+}
+
+.hey-subscribed{
+  background-color: lightgray;
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav a{
+  color: green;
+  text-decoration: none;
+  margin-top: 20px;
+  font-size: 25px;
+}
+
+fieldset{
+  margin-top: 10px;
+  box-shadow: 5px 5px 10px blue;
+  color: gray;
+}
+
+h1{
+  color: GRAY;
+}
